@@ -7,10 +7,13 @@ import Productos from './pages/Productos'
 import AddProduct from './pages/AddProduct'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
+import { useState } from 'react'
+import { CartProvider } from './context/CartContext'
 
 function App() {
   return (
-    <Router>
+    <CartProvider>
+      <Router>
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home titulo="Hogar" />} />
@@ -20,7 +23,9 @@ function App() {
             <Route path="*" element={<NotFound titulo="Página no encontrada" />} />
           </Route>
         </Routes>
-    </Router>
+      </Router>
+    </CartProvider>
+
   )
 }
 
