@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aceite de Girasol 1.5L",
+        "categoria": "Almacén",
+        "precio": 2500.5,
+        "stock": 45,
+        "url_imagen": "https://placehold.co/200x200?text=Aceite"
+    },
+    {
+        "id": 2,
+        "nombre": "Arroz Largo Fino 1kg",
+        "categoria": "Almacén",
+        "precio": 1200.0,
+        "stock": 120,
+        "url_imagen": "https://placehold.co/200x200?text=Arroz"
+    },
+    {
+        "id": 3,
+        "nombre": "Fideos Tallarines 500g",
+        "categoria": "Almacén",
+        "precio": 950.0,
+        "stock": 85,
+        "url_imagen": "https://placehold.co/200x200?text=Fideos"
+    },
+    {
+        "id": 4,
+        "nombre": "Leche Entera Larga Vida 1L",
+        "categoria": "Lácteos",
+        "precio": 1100.0,
+        "stock": 200,
+        "url_imagen": "https://placehold.co/200x200?text=Leche"
+    },
+    {
+        "id": 5,
+        "nombre": "Yogurt de Frutilla 190g",
+        "categoria": "Lácteos",
+        "precio": 850.0,
+        "stock": 40,
+        "url_imagen": "https://placehold.co/200x200?text=Yogurt"
+    },
+    {
+        "id": 6,
+        "nombre": "Queso Cremoso 1kg",
+        "categoria": "Lácteos",
+        "precio": 7500.0,
+        "stock": 15,
+        "url_imagen": "https://placehold.co/200x200?text=Queso"
+    },
+    {
+        "id": 7,
+        "nombre": "Detergente Lavavajilla 500ml",
+        "categoria": "Limpieza",
+        "precio": 1800.0,
+        "stock": 60,
+        "url_imagen": "https://placehold.co/200x200?text=Detergente"
+    },
+    {
+        "id": 8,
+        "nombre": "Lavandina Común 1L",
+        "categoria": "Limpieza",
+        "precio": 900.0,
+        "stock": 100,
+        "url_imagen": "https://placehold.co/200x200?text=Lavandina"
+    },
+    {
+        "id": 9,
+        "nombre": "Jabón en Polvo 800g",
+        "categoria": "Limpieza",
+        "precio": 3200.0,
+        "stock": 35,
+        "url_imagen": "https://placehold.co/200x200?text=Jabon"
+    },
+    {
+        "id": 10,
+        "nombre": "Gaseosa Cola 2.25L",
+        "categoria": "Bebidas",
+        "precio": 2800.0,
+        "stock": 150,
+        "url_imagen": "https://placehold.co/200x200?text=Gaseosa"
+    },
+    {
+        "id": 11,
+        "nombre": "Agua Mineral Sin Gas 1.5L",
+        "categoria": "Bebidas",
+        "precio": 800.0,
+        "stock": 300,
+        "url_imagen": "https://placehold.co/200x200?text=Agua"
+    },
+    {
+        "id": 12,
+        "nombre": "Cerveza Rubia 473ml",
+        "categoria": "Bebidas",
+        "precio": 1500.0,
+        "stock": 90,
+        "url_imagen": "https://placehold.co/200x200?text=Cerveza"
+    },
+    {
+        "id": 13,
+        "nombre": "Pan Lactal Grande",
+        "categoria": "Panadería",
+        "precio": 2100.0,
+        "stock": 25,
+        "url_imagen": "https://placehold.co/200x200?text=Pan"
+    },
+    {
+        "id": 14,
+        "nombre": "Galletitas Dulces con Chips",
+        "categoria": "Almacén",
+        "precio": 1350.0,
+        "stock": 70,
+        "url_imagen": "https://placehold.co/200x200?text=Galletitas"
+    },
+    {
+        "id": 15,
+        "nombre": "Yerba Mate con Palo 1kg",
+        "categoria": "Almacén",
+        "precio": 4200.0,
+        "stock": 55,
+        "url_imagen": "https://placehold.co/200x200?text=Yerba"
+    },
+    {
+        "id": 16,
+        "nombre": "Azúcar Blanca 1kg",
+        "categoria": "Almacén",
+        "precio": 1150.0,
+        "stock": 110,
+        "url_imagen": "https://placehold.co/200x200?text=Azucar"
+    },
+    {
+        "id": 17,
+        "nombre": "Café Instantáneo 170g",
+        "categoria": "Almacén",
+        "precio": 5600.0,
+        "stock": 20,
+        "url_imagen": "https://placehold.co/200x200?text=Cafe"
+    },
+    {
+        "id": 18,
+        "nombre": "Mermelada de Durazno 454g",
+        "categoria": "Almacén",
+        "precio": 1900.0,
+        "stock": 30,
+        "url_imagen": "https://placehold.co/200x200?text=Mermelada"
+    },
+    {
+        "id": 19,
+        "nombre": "Harina de Trigo 000 1kg",
+        "categoria": "Almacén",
+        "precio": 900.0,
+        "stock": 140,
+        "url_imagen": "https://placehold.co/200x200?text=Harina"
+    },
+    {
+        "id": 20,
+        "nombre": "Puré de Tomate 520g",
+        "categoria": "Almacén",
+        "precio": 850.0,
+        "stock": 95,
+        "url_imagen": "https://placehold.co/200x200?text=Tomate"
+    },
+    {
+        "id": 21,
+        "nombre": "Sal Fina 500g",
+        "categoria": "Almacén",
+        "precio": 600.0,
+        "stock": 50,
+        "url_imagen": "https://placehold.co/200x200?text=Sal"
+    },
+    {
+        "id": 22,
+        "nombre": "Mayonesa Clásica 450g",
+        "categoria": "Almacén",
+        "precio": 1700.0,
+        "stock": 40,
+        "url_imagen": "https://placehold.co/200x200?text=Mayonesa"
+    },
+    {
+        "id": 23,
+        "nombre": "Atún en Desmenuzado al Natural",
+        "categoria": "Almacén",
+        "precio": 2300.0,
+        "stock": 35,
+        "url_imagen": "https://placehold.co/200x200?text=Atun"
+    },
+    {
+        "id": 24,
+        "nombre": "Shampoo Hidratación 400ml",
+        "categoria": "Perfumería",
+        "precio": 4500.0,
+        "stock": 25,
+        "url_imagen": "https://placehold.co/200x200?text=Shampoo"
+    },
+    {
+        "id": 25,
+        "nombre": "Desodorante Masculino 150ml",
+        "categoria": "Perfumería",
+        "precio": 2900.0,
+        "stock": 45,
+        "url_imagen": "https://placehold.co/200x200?text=Desodorante"
+    },
+    {
+        "id": 26,
+        "nombre": "Papel Higiénico 4 rollos",
+        "categoria": "Limpieza",
+        "precio": 2600.0,
+        "stock": 80,
+        "url_imagen": "https://placehold.co/200x200?text=Papel"
+    },
+    {
+        "id": 27,
+        "nombre": "Desinfectante de Ambientes",
+        "categoria": "Limpieza",
+        "precio": 3100.0,
+        "stock": 50,
+        "url_imagen": "https://placehold.co/200x200?text=Desinfectante"
+    },
+    {
+        "id": 28,
+        "nombre": "Vino Malbec 750ml",
+        "categoria": "Bebidas",
+        "precio": 5500.0,
+        "stock": 15,
+        "url_imagen": "https://placehold.co/200x200?text=Vino"
+    },
+    {
+        "id": 29,
+        "nombre": "Manteca Calidad Extra 200g",
+        "categoria": "Lácteos",
+        "precio": 1400.0,
+        "stock": 40,
+        "url_imagen": "https://placehold.co/200x200?text=Manteca"
+    },
+    {
+        "id": 30,
+        "nombre": "Hamburguesas de Carne 4u",
+        "categoria": "Carnicería",
+        "precio": 3800.0,
+        "stock": 20,
+        "url_imagen": "https://placehold.co/200x200?text=Hamburguesa"
+    },
+    {
+        "id": 31,
+        "nombre": "Aceite de Girasol 1.5L",
+        "categoria": "Almacén",
+        "precio": 2500.5,
+        "stock": 76,
+        "url_imagen": "https://placehold.co/200x200?text=Aceite"
+    },
+    {
+        "id": 32,
+        "nombre": "Arroz Largo Fino 1kg",
+        "categoria": "Almacén",
+        "precio": 1200.0,
+        "stock": 2,
+        "url_imagen": "https://placehold.co/200x200?text=Arroz"
+    },
+    {
+        "id": 33,
+        "nombre": "Fideos Tallarines 500g",
+        "categoria": "Almacén",
+        "precio": 950.0,
+        "stock": 118,
+        "url_imagen": "https://placehold.co/200x200?text=Fideos"
+    },
+    {
+        "id": 34,
+        "nombre": "Leche Entera Larga Vida 1L",
+        "categoria": "Lácteos",
+        "precio": 1100.0,
+        "stock": 84,
+        "url_imagen": "https://placehold.co/200x200?text=Leche"
+    },
+    {
+        "id": 35,
+        "nombre": "Yogurt de Frutilla 190g",
+        "categoria": "Lácteos",
+        "precio": 850.0,
+        "stock": 75,
+        "url_imagen": "https://placehold.co/200x200?text=Yogurt"
+    },
+    {
+        "id": 36,
+        "nombre": "Queso Cremoso 1kg",
+        "categoria": "Lácteos",
+        "precio": 7500.0,
+        "stock": 51,
+        "url_imagen": "https://placehold.co/200x200?text=Queso"
+    },
+    {
+        "id": 37,
+        "nombre": "Detergente Lavavajilla 500ml",
+        "categoria": "Limpieza",
+        "precio": 1800.0,
+        "stock": 97,
+        "url_imagen": "https://placehold.co/200x200?text=Detergente"
+    },
+    {
+        "id": 38,
+        "nombre": "Lavandina Común 1L",
+        "categoria": "Limpieza",
+        "precio": 900.0,
+        "stock": 138,
+        "url_imagen": "https://placehold.co/200x200?text=Lavandina"
+    },
+    {
+        "id": 39,
+        "nombre": "Jabón en Polvo 800g",
+        "categoria": "Limpieza",
+        "precio": 3200.0,
+        "stock": 74,
+        "url_imagen": "https://placehold.co/200x200?text=Jabon"
+    },
+    {
+        "id": 40,
+        "nombre": "Gaseosa Cola 2.25L",
+        "categoria": "Bebidas",
+        "precio": 2800.0,
+        "stock": 40,
+        "url_imagen": "https://placehold.co/200x200?text=Gaseosa"
+    },
+    {
+        "id": 41,
+        "nombre": "Agua Mineral Sin Gas 1.5L",
+        "categoria": "Bebidas",
+        "precio": 800.0,
+        "stock": 41,
+        "url_imagen": "https://placehold.co/200x200?text=Agua"
+    },
+    {
+        "id": 42,
+        "nombre": "Cerveza Rubia 473ml",
+        "categoria": "Bebidas",
+        "precio": 1500.0,
+        "stock": 132,
+        "url_imagen": "https://placehold.co/200x200?text=Cerveza"
+    },
+    {
+        "id": 43,
+        "nombre": "Pan Lactal Grande",
+        "categoria": "Panadería",
+        "precio": 2100.0,
+        "stock": 68,
+        "url_imagen": "https://placehold.co/200x200?text=Pan"
+    },
+    {
+        "id": 44,
+        "nombre": "Galletitas Dulces con Chips",
+        "categoria": "Almacén",
+        "precio": 1350.0,
+        "stock": 114,
+        "url_imagen": "https://placehold.co/200x200?text=Galletitas"
+    },
+    {
+        "id": 45,
+        "nombre": "Yerba Mate con Palo 1kg",
+        "categoria": "Almacén",
+        "precio": 4200.0,
+        "stock": 100,
+        "url_imagen": "https://placehold.co/200x200?text=Yerba"
+    },
+    {
+        "id": 46,
+        "nombre": "Azúcar Blanca 1kg",
+        "categoria": "Almacén",
+        "precio": 1150.0,
+        "stock": 6,
+        "url_imagen": "https://placehold.co/200x200?text=Azucar"
+    },
+    {
+        "id": 47,
+        "nombre": "Café Instantáneo 170g",
+        "categoria": "Almacén",
+        "precio": 5600.0,
+        "stock": 67,
+        "url_imagen": "https://placehold.co/200x200?text=Cafe"
+    },
+    {
+        "id": 48,
+        "nombre": "Mermelada de Durazno 454g",
+        "categoria": "Almacén",
+        "precio": 1900.0,
+        "stock": 78,
+        "url_imagen": "https://placehold.co/200x200?text=Mermelada"
+    },
+    {
+        "id": 49,
+        "nombre": "Harina de Trigo 000 1kg",
+        "categoria": "Almacén",
+        "precio": 900.0,
+        "stock": 39,
+        "url_imagen": "https://placehold.co/200x200?text=Harina"
+    },
+    {
+        "id": 50,
+        "nombre": "Puré de Tomate 520g",
+        "categoria": "Almacén",
+        "precio": 850.0,
+        "stock": 145,
+        "url_imagen": "https://placehold.co/200x200?text=Tomate"
+    },
+    {
+        "id": 51,
+        "nombre": "Sal Fina 500g",
+        "categoria": "Almacén",
+        "precio": 600.0,
+        "stock": 101,
+        "url_imagen": "https://placehold.co/200x200?text=Sal"
+    },
+    {
+        "id": 52,
+        "nombre": "Mayonesa Clásica 450g",
+        "categoria": "Almacén",
+        "precio": 1700.0,
+        "stock": 92,
+        "url_imagen": "https://placehold.co/200x200?text=Mayonesa"
+    },
+    {
+        "id": 53,
+        "nombre": "Atún en Desmenuzado al Natural",
+        "categoria": "Almacén",
+        "precio": 2300.0,
+        "stock": 88,
+        "url_imagen": "https://placehold.co/200x200?text=Atun"
+    },
+    {
+        "id": 54,
+        "nombre": "Shampoo Hidratación 400ml",
+        "categoria": "Perfumería",
+        "precio": 4500.0,
+        "stock": 79,
+        "url_imagen": "https://placehold.co/200x200?text=Shampoo"
+    },
+    {
+        "id": 55,
+        "nombre": "Desodorante Masculino 150ml",
+        "categoria": "Perfumería",
+        "precio": 2900.0,
+        "stock": 100,
+        "url_imagen": "https://placehold.co/200x200?text=Desodorante"
+    },
+    {
+        "id": 56,
+        "nombre": "Papel Higiénico 4 rollos",
+        "categoria": "Limpieza",
+        "precio": 2600.0,
+        "stock": 136,
+        "url_imagen": "https://placehold.co/200x200?text=Papel"
+    },
+    {
+        "id": 57,
+        "nombre": "Desinfectante de Ambientes",
+        "categoria": "Limpieza",
+        "precio": 3100.0,
+        "stock": 107,
+        "url_imagen": "https://placehold.co/200x200?text=Desinfectante"
+    },
+    {
+        "id": 58,
+        "nombre": "Vino Malbec 750ml",
+        "categoria": "Bebidas",
+        "precio": 5500.0,
+        "stock": 73,
+        "url_imagen": "https://placehold.co/200x200?text=Vino"
+    },
+    {
+        "id": 59,
+        "nombre": "Manteca Calidad Extra 200g",
+        "categoria": "Lácteos",
+        "precio": 1400.0,
+        "stock": 99,
+        "url_imagen": "https://placehold.co/200x200?text=Manteca"
+    },
+    {
+        "id": 60,
+        "nombre": "Hamburguesas de Carne 4u",
+        "categoria": "Carnicería",
+        "precio": 3800.0,
+        "stock": 80,
+        "url_imagen": "https://placehold.co/200x200?text=Hamburguesa"
+    },
+    {
+        "id": 61,
+        "nombre": "Aceite de Girasol 1.5L",
+        "categoria": "Almacén",
+        "precio": 2500.5,
+        "stock": 106,
+        "url_imagen": "https://placehold.co/200x200?text=Aceite"
+    },
+    {
+        "id": 62,
+        "nombre": "Arroz Largo Fino 1kg",
+        "categoria": "Almacén",
+        "precio": 1200.0,
+        "stock": 32,
+        "url_imagen": "https://placehold.co/200x200?text=Arroz"
+    },
+    {
+        "id": 63,
+        "nombre": "Fideos Tallarines 500g",
+        "categoria": "Almacén",
+        "precio": 950.0,
+        "stock": 148,
+        "url_imagen": "https://placehold.co/200x200?text=Fideos"
+    },
+    {
+        "id": 64,
+        "nombre": "Leche Entera Larga Vida 1L",
+        "categoria": "Lácteos",
+        "precio": 1100.0,
+        "stock": 114,
+        "url_imagen": "https://placehold.co/200x200?text=Leche"
+    },
+    {
+        "id": 65,
+        "nombre": "Yogurt de Frutilla 190g",
+        "categoria": "Lácteos",
+        "precio": 850.0,
+        "stock": 105,
+        "url_imagen": "https://placehold.co/200x200?text=Yogurt"
+    },
+    {
+        "id": 66,
+        "nombre": "Queso Cremoso 1kg",
+        "categoria": "Lácteos",
+        "precio": 7500.0,
+        "stock": 81,
+        "url_imagen": "https://placehold.co/200x200?text=Queso"
+    },
+    {
+        "id": 67,
+        "nombre": "Detergente Lavavajilla 500ml",
+        "categoria": "Limpieza",
+        "precio": 1800.0,
+        "stock": 127,
+        "url_imagen": "https://placehold.co/200x200?text=Detergente"
+    },
+    {
+        "id": 68,
+        "nombre": "Lavandina Común 1L",
+        "categoria": "Limpieza",
+        "precio": 900.0,
+        "stock": 18,
+        "url_imagen": "https://placehold.co/200x200?text=Lavandina"
+    },
+    {
+        "id": 69,
+        "nombre": "Jabón en Polvo 800g",
+        "categoria": "Limpieza",
+        "precio": 3200.0,
+        "stock": 104,
+        "url_imagen": "https://placehold.co/200x200?text=Jabon"
+    },
+    {
+        "id": 70,
+        "nombre": "Gaseosa Cola 2.25L",
+        "categoria": "Bebidas",
+        "precio": 2800.0,
+        "stock": 70,
+        "url_imagen": "https://placehold.co/200x200?text=Gaseosa"
+    },
+    {
+        "id": 71,
+        "nombre": "Agua Mineral Sin Gas 1.5L",
+        "categoria": "Bebidas",
+        "precio": 800.0,
+        "stock": 71,
+        "url_imagen": "https://placehold.co/200x200?text=Agua"
+    },
+    {
+        "id": 72,
+        "nombre": "Cerveza Rubia 473ml",
+        "categoria": "Bebidas",
+        "precio": 1500.0,
+        "stock": 12,
+        "url_imagen": "https://placehold.co/200x200?text=Cerveza"
+    },
+    {
+        "id": 73,
+        "nombre": "Pan Lactal Grande",
+        "categoria": "Panadería",
+        "precio": 2100.0,
+        "stock": 98,
+        "url_imagen": "https://placehold.co/200x200?text=Pan"
+    },
+    {
+        "id": 74,
+        "nombre": "Galletitas Dulces con Chips",
+        "categoria": "Almacén",
+        "precio": 1350.0,
+        "stock": 144,
+        "url_imagen": "https://placehold.co/200x200?text=Galletitas"
+    },
+    {
+        "id": 75,
+        "nombre": "Yerba Mate con Palo 1kg",
+        "categoria": "Almacén",
+        "precio": 4200.0,
+        "stock": 130,
+        "url_imagen": "https://placehold.co/200x200?text=Yerba"
+    },
+    {
+        "id": 76,
+        "nombre": "Azúcar Blanca 1kg",
+        "categoria": "Almacén",
+        "precio": 1150.0,
+        "stock": 36,
+        "url_imagen": "https://placehold.co/200x200?text=Azucar"
+    },
+    {
+        "id": 77,
+        "nombre": "Café Instantáneo 170g",
+        "categoria": "Almacén",
+        "precio": 5600.0,
+        "stock": 97,
+        "url_imagen": "https://placehold.co/200x200?text=Cafe"
+    },
+    {
+        "id": 78,
+        "nombre": "Mermelada de Durazno 454g",
+        "categoria": "Almacén",
+        "precio": 1900.0,
+        "stock": 108,
+        "url_imagen": "https://placehold.co/200x200?text=Mermelada"
+    },
+    {
+        "id": 79,
+        "nombre": "Harina de Trigo 000 1kg",
+        "categoria": "Almacén",
+        "precio": 900.0,
+        "stock": 69,
+        "url_imagen": "https://placehold.co/200x200?text=Harina"
+    },
+    {
+        "id": 80,
+        "nombre": "Puré de Tomate 520g",
+        "categoria": "Almacén",
+        "precio": 850.0,
+        "stock": 25,
+        "url_imagen": "https://placehold.co/200x200?text=Tomate"
+    },
+    {
+        "id": 81,
+        "nombre": "Sal Fina 500g",
+        "categoria": "Almacén",
+        "precio": 600.0,
+        "stock": 131,
+        "url_imagen": "https://placehold.co/200x200?text=Sal"
+    },
+    {
+        "id": 82,
+        "nombre": "Mayonesa Clásica 450g",
+        "categoria": "Almacén",
+        "precio": 1700.0,
+        "stock": 122,
+        "url_imagen": "https://placehold.co/200x200?text=Mayonesa"
+    },
+    {
+        "id": 83,
+        "nombre": "Atún en Desmenuzado al Natural",
+        "categoria": "Almacén",
+        "precio": 2300.0,
+        "stock": 118,
+        "url_imagen": "https://placehold.co/200x200?text=Atun"
+    },
+    {
+        "id": 84,
+        "nombre": "Shampoo Hidratación 400ml",
+        "categoria": "Perfumería",
+        "precio": 4500.0,
+        "stock": 109,
+        "url_imagen": "https://placehold.co/200x200?text=Shampoo"
+    },
+    {
+        "id": 85,
+        "nombre": "Desodorante Masculino 150ml",
+        "categoria": "Perfumería",
+        "precio": 2900.0,
+        "stock": 130,
+        "url_imagen": "https://placehold.co/200x200?text=Desodorante"
+    },
+    {
+        "id": 86,
+        "nombre": "Papel Higiénico 4 rollos",
+        "categoria": "Limpieza",
+        "precio": 2600.0,
+        "stock": 16,
+        "url_imagen": "https://placehold.co/200x200?text=Papel"
+    },
+    {
+        "id": 87,
+        "nombre": "Desinfectante de Ambientes",
+        "categoria": "Limpieza",
+        "precio": 3100.0,
+        "stock": 137,
+        "url_imagen": "https://placehold.co/200x200?text=Desinfectante"
+    },
+    {
+        "id": 88,
+        "nombre": "Vino Malbec 750ml",
+        "categoria": "Bebidas",
+        "precio": 5500.0,
+        "stock": 103,
+        "url_imagen": "https://placehold.co/200x200?text=Vino"
+    },
+    {
+        "id": 89,
+        "nombre": "Manteca Calidad Extra 200g",
+        "categoria": "Lácteos",
+        "precio": 1400.0,
+        "stock": 129,
+        "url_imagen": "https://placehold.co/200x200?text=Manteca"
+    },
+    {
+        "id": 90,
+        "nombre": "Hamburguesas de Carne 4u",
+        "categoria": "Carnicería",
+        "precio": 3800.0,
+        "stock": 110,
+        "url_imagen": "https://placehold.co/200x200?text=Hamburguesa"
+    },
+    {
+        "id": 91,
+        "nombre": "Aceite de Girasol 1.5L",
+        "categoria": "Almacén",
+        "precio": 2500.5,
+        "stock": 136,
+        "url_imagen": "https://placehold.co/200x200?text=Aceite"
+    },
+    {
+        "id": 92,
+        "nombre": "Arroz Largo Fino 1kg",
+        "categoria": "Almacén",
+        "precio": 1200.0,
+        "stock": 62,
+        "url_imagen": "https://placehold.co/200x200?text=Arroz"
+    },
+    {
+        "id": 93,
+        "nombre": "Fideos Tallarines 500g",
+        "categoria": "Almacén",
+        "precio": 950.0,
+        "stock": 28,
+        "url_imagen": "https://placehold.co/200x200?text=Fideos"
+    },
+    {
+        "id": 94,
+        "nombre": "Leche Entera Larga Vida 1L",
+        "categoria": "Lácteos",
+        "precio": 1100.0,
+        "stock": 144,
+        "url_imagen": "https://placehold.co/200x200?text=Leche"
+    },
+    {
+        "id": 95,
+        "nombre": "Yogurt de Frutilla 190g",
+        "categoria": "Lácteos",
+        "precio": 850.0,
+        "stock": 135,
+        "url_imagen": "https://placehold.co/200x200?text=Yogurt"
+    },
+    {
+        "id": 96,
+        "nombre": "Queso Cremoso 1kg",
+        "categoria": "Lácteos",
+        "precio": 7500.0,
+        "stock": 111,
+        "url_imagen": "https://placehold.co/200x200?text=Queso"
+    },
+    {
+        "id": 97,
+        "nombre": "Detergente Lavavajilla 500ml",
+        "categoria": "Limpieza",
+        "precio": 1800.0,
+        "stock": 7,
+        "url_imagen": "https://placehold.co/200x200?text=Detergente"
+    },
+    {
+        "id": 98,
+        "nombre": "Lavandina Común 1L",
+        "categoria": "Limpieza",
+        "precio": 900.0,
+        "stock": 48,
+        "url_imagen": "https://placehold.co/200x200?text=Lavandina"
+    },
+    {
+        "id": 99,
+        "nombre": "Jabón en Polvo 800g",
+        "categoria": "Limpieza",
+        "precio": 3200.0,
+        "stock": 134,
+        "url_imagen": "https://placehold.co/200x200?text=Jabon"
+    },
+    {
+        "id": 100,
+        "nombre": "Gaseosa Cola 2.25L",
+        "categoria": "Bebidas",
+        "precio": 2800.0,
+        "stock": 100,
+        "url_imagen": "https://placehold.co/200x200?text=Gaseosa"
+    }
+]

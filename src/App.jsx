@@ -1,30 +1,25 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' // Quitamos Link que no se usa aquí
+
+import Layout from './components/Layout'
 import Home from './pages/Home'
-import Contacto from './pages/Contacto'
 import Productos from './pages/Productos'
-import AddProduct from './components/AddProduct'
-import NotFound from './pages/NotFound.jsx'
+import AddProduct from './pages/AddProduct'
+import Contacto from './pages/Contacto'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
     <Router>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/add-product">Add Product</Link></li>
-          <li><Link to="/productos">Productos</Link></li>
-          <li><Link to="/contacto">Contacto</Link></li>
-        </ul>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/add-product" element={<AddProduct />} />
-        <Route path="/productos" element={<Productos />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home titulo="Hogar" />} />
+            <Route path="/productos" element={<Productos titulo="Almacén" />} />
+            <Route path="/contacto" element={<Contacto titulo="Contacto" />} />
+            <Route path="/add-product" element={<AddProduct titulo="Agregar Producto" />} />
+            <Route path="*" element={<NotFound titulo="Página no encontrada" />} />
+          </Route>
+        </Routes>
     </Router>
   )
 }
